@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+body{
+    background-color: #EEEFF1;
+    font-family: 'Roboto', sans-serif;
+}
+.nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 42px;
+    font-size: 16px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 162px;
+}
+.header-text{
+    max-width: 540px;
+    padding-left: 130px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.header-text p{
+    color: #727272;
+    padding-top: 60px;
+    min-width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.header-text button{
+    background-color: #34547A;
+    color: #ffffff;
+    border: none;
+    min-width: 225px;
+    min-height: 65px;
+    margin-top: 62px;
+}
+.nav a:hover{
+    color: #34547A;
+}
